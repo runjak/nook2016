@@ -51,7 +51,7 @@
 						  -->
 						</li>
 						<li>
-							Container starten und bauen
+							Container starten, bauen und pflegen
 							<!--
 							Manuell starten, stoppen, etc.
 							Manuell bauen
@@ -76,18 +76,35 @@
 				</section>
 				<section>
 					<section>
-						<h2>Container starten und bauen</h2>
+						<h2>Container starten</h2>
 						* Hier kommt dieser Docker ins Spiel.
 					</section>
 					<section>
-						<code>docker run hello-world</code>
+						<pre><code class="bash">docker run hello-world</code></pre>
 						<asciinema-player src="demos/helloworld.json" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
-						<code>
-							docker run -it ubuntu bash
-						</code>
+						<pre><code class="bash">docker run -it ubuntu:latest bash</code></pre>
 						<asciinema-player src="demos/runUbuntu.json" theme="solarized-light"></asciinema-player>
+					</section>
+					<section>
+						<h3>Serving this presentation</h3>
+						<pre><code class="bash">#!/bin/sh
+docker run \
+  --volume `pwd`:/usr/share/nginx/html:ro \
+  -p 80:80 \
+  -it nginx:alpine</code></pre>
+						<asciinema-player src="demos/serveNginx.json" theme="solarized-light"></asciinema-player>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Container bauen</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Containerf00 pflegen</h2>
 					</section>
 				</section>
 				<section>

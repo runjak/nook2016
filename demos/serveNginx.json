@@ -1,0 +1,118 @@
+{
+  "height": 69,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/usr/bin/zsh"
+  },
+  "version": 1,
+  "command": null,
+  "width": 239,
+  "title": null,
+  "stdout": [
+    [
+      0.314361,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.013732,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016\u0007"
+    ],
+    [
+      8.6e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.106573,
+      "\u001b[7mdocker run --volume `pwd`:/usr/share/nginx/html:ro -p 80:80 -it nginx:alpine\u001b[27m"
+    ],
+    [
+      0.641785,
+      "\u001b[76D\u001b[27md\u001b[27mo\u001b[27mc\u001b[27mk\u001b[27me\u001b[27mr\u001b[27m \u001b[27mr\u001b[27mu\u001b[27mn\u001b[27m \u001b[27m-\u001b[27m-\u001b[27mv\u001b[27mo\u001b[27ml\u001b[27mu\u001b[27mm\u001b[27me\u001b[27m \u001b[27m`\u001b[27mp\u001b[27mw\u001b[27md\u001b[27m`\u001b[27m:\u001b[27m/\u001b[27mu\u001b[27ms\u001b[27mr\u001b[27m/\u001b[27ms\u001b[27mh\u001b[27ma\u001b[27mr\u001b[27me\u001b[27m/\u001b[27mn\u001b[27mg\u001b[27mi\u001b[27mn\u001b[27mx\u001b[27m/\u001b[27mh\u001b[27mt\u001b[27mm\u001b[27ml\u001b[27m:\u001b[27mr\u001b[27mo\u001b[27m \u001b[27m-\u001b[27mp\u001b[27m \u001b[27m8\u001b[27m0\u001b[27m:\u001b[27m8\u001b[27m0\u001b[27m \u001b[27m-\u001b[27mi\u001b[27mt\u001b[27m \u001b[27mn\u001b[27mg\u001b[27mi\u001b[27mn\u001b[27mx\u001b[27m:\u001b[27ma\u001b[27ml\u001b[27mp\u001b[27mi\u001b[27mn\u001b[27me"
+    ],
+    [
+      3.2e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000594,
+      "\u001b]0;mushu@stormo: docker run --volume `pwd`:/usr/share/nginx/html:ro -p 80:80 -it nginx:alpine\u0007"
+    ],
+    [
+      0.5,
+      "172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET / HTTP/1.1\" 200 3575 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.010245,
+      "172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /css/reveal.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /css/theme/solarized.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.001557,
+      "172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /lib/css/zenburn.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /css/asciinema-player.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /js/asciinema-player.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /lib/js/head.min.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /js/reveal.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebK"
+    ],
+    [
+      2.8e-05,
+      "it/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.004461,
+      "172.17.0.1 - - [11/Oct/2016:16:40:43 +0000] \"GET /lib/font/league-gothic/league-gothic.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.119629,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /css/print/paper.css HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.190024,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /plugin/markdown/marked.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.001016,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /plugin/markdown/markdown.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.013463,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /plugin/notes/notes.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.001189,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /plugin/highlight/highlight.js HTTP/1.1\" 304 0 \"http://127.0.0.1/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      0.012149,
+      "172.17.0.1 - - [11/Oct/2016:16:40:44 +0000] \"GET /lib/font/league-gothic/league-gothic.woff HTTP/1.1\" 304 0 \"http://127.0.0.1/lib/font/league-gothic/league-gothic.css\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36\" \"-\"\r\n"
+    ],
+    [
+      1.637814,
+      "^C"
+    ],
+    [
+      0.227261,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.010494,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016\u0007"
+    ],
+    [
+      0.00113,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      1.639304,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "duration": 7.859901
+}
