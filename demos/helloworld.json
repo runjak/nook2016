@@ -1,0 +1,190 @@
+{
+  "command": null,
+  "title": null,
+  "stdout": [
+    [
+      0.3421,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.013843,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/demos\u0007"
+    ],
+    [
+      0.000127,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/demos \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      4.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.5e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.694681,
+      "d"
+    ],
+    [
+      0.124521,
+      "\bdo"
+    ],
+    [
+      0.08806,
+      "c"
+    ],
+    [
+      0.071846,
+      "k"
+    ],
+    [
+      0.093339,
+      "e"
+    ],
+    [
+      0.060084,
+      "r"
+    ],
+    [
+      0.05251,
+      " "
+    ],
+    [
+      0.19174,
+      "r"
+    ],
+    [
+      0.089469,
+      "u"
+    ],
+    [
+      0.043074,
+      "n"
+    ],
+    [
+      0.212813,
+      " "
+    ],
+    [
+      0.194848,
+      "h"
+    ],
+    [
+      0.116307,
+      "e"
+    ],
+    [
+      0.161686,
+      "l"
+    ],
+    [
+      0.118629,
+      "l"
+    ],
+    [
+      0.186713,
+      "o"
+    ],
+    [
+      0.218018,
+      "-"
+    ],
+    [
+      0.279237,
+      "w"
+    ],
+    [
+      0.059844,
+      "o"
+    ],
+    [
+      0.130629,
+      "r"
+    ],
+    [
+      0.091321,
+      "l"
+    ],
+    [
+      0.044285,
+      "d"
+    ],
+    [
+      0.646667,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00056,
+      "\u001b]0;mushu@stormo: docker run hello-world\u0007"
+    ],
+    [
+      0.008575,
+      "Unable to find image 'hello-world:latest' locally\r\n"
+    ],
+    [
+      2.127179,
+      "latest: Pulling from library/hello-world\r\n\u001b[0B\r\n\u001b[0A\u001b[2K\rc04b14da8d14: Pulling fs layer \r\u001b[0B"
+    ],
+    [
+      0.81594,
+      "\u001b[1A\u001b[2K\rc04b14da8d14: Downloading [==================================================>]    974 B/974 B\r\u001b[1B\u001b[1A\u001b[2K\rc04b14da8d14: Verifying Checksum \r\u001b[1B\u001b[1A\u001b[2K\rc04b14da8d14: "
+    ],
+    [
+      5.1e-05,
+      "Download complete \r\u001b[1B\u001b[1A\u001b[2K\rc04b14da8d14: Extracting [==================================================>]    974 B/974 B\r\u001b[1B"
+    ],
+    [
+      0.059761,
+      "\u001b[1A\u001b[2K\rc04b14da8d14: Extracting [==================================================>]    974 B/974 B\r\u001b[1B"
+    ],
+    [
+      0.051002,
+      "\u001b[1A\u001b[2K\rc04b14da8d14: Pull complete \r\u001b[1B"
+    ],
+    [
+      0.012707,
+      "Digest: sha256:0256e8a36e2070f7bf2d0b0763dbabdd67798512411de4cdcf9431a1feb60fd9\r\n"
+    ],
+    [
+      0.01012,
+      "Status: Downloaded newer image for hello-world:latest\r\n"
+    ],
+    [
+      0.217022,
+      "\r\nHello from Docker!\r\nThis message shows that your installation appears to be working correctly.\r\n\r\nTo generate this message, Docker took the following steps:\r\n 1. The Docker client contacted the Docker daemon.\r\n 2. The Docker daemon pulled the \"hello-world\" image from the Docker Hub.\r\n 3. The Docker daemon created a new container from that image which runs the\r\n    executable that produces the output you are currently reading.\r\n 4. The Docker daemon streamed that output to the Docker client, which sent it\r\n    to your terminal.\r\n\r\nTo try something more ambitious, you can run an Ubuntu container with:\r\n $ docker run -it ubuntu bash\r\n\r\nShare images, automate workflows, and more with a free Docker Hub account:\r\n https://hub.docker.com\r\n\r\nFor more examples and ideas, visit:\r\n https://docs.docker.com/engine/userguide/\r\n\r\n"
+    ],
+    [
+      0.20251,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.010298,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/demos\u0007"
+    ],
+    [
+      5e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/demos \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      5.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.156277,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "height": 69,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/usr/bin/zsh"
+  },
+  "duration": 9.422291,
+  "version": 1,
+  "width": 239
+}

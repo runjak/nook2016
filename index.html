@@ -16,6 +16,9 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<!-- Asciinema casts -->
+		<link rel="stylesheet" href="css/asciinema-player.css">
+		<script src="js/asciinema-player.js"></script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -67,6 +70,22 @@
 				<section>
 					<h2>Was sind container?</h2>
 					* Sowas wie virtualisierung?
+				</section>
+				<section>
+					<h2>Wer will container haben und warum?</h2>
+				</section>
+				<section>
+					<section>
+						<h2>Container starten und bauen</h2>
+						* Hier kommt dieser Docker ins Spiel.
+					</section>
+					<section>
+						<h2>Hello docker!</h2>
+						<asciinema-player src="demos/helloworld.json" theme="solarized-light"></asciinema-player>
+					</section>
+				</section>
+				<section>
+					<h2>Weiteres geplänkel</h2>
 				</section>
 			</div>
 		</div>
