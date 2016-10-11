@@ -81,11 +81,11 @@
 					</section>
 					<section>
 						<pre><code class="bash">docker run hello-world</code></pre>
-						<asciinema-player src="demos/helloworld.json" theme="solarized-light"></asciinema-player>
+						<asciinema-player src="demos/helloworld.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
 					</section>
 					<section>
 						<pre><code class="bash">docker run -it ubuntu:latest bash</code></pre>
-						<asciinema-player src="demos/runUbuntu.json" theme="solarized-light"></asciinema-player>
+						<asciinema-player src="demos/runUbuntu.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
 					</section>
 					<section>
 						<h3>Serving this presentation</h3>
@@ -94,12 +94,33 @@ docker run \
   --volume `pwd`:/usr/share/nginx/html:ro \
   -p 80:80 \
   -it nginx:alpine</code></pre>
-						<asciinema-player src="demos/serveNginx.json" theme="solarized-light"></asciinema-player>
+						<asciinema-player src="demos/serveNginx.json" theme="solarized-light" rows="24" cols="239"></asciinema-player>
 					</section>
 				</section>
 				<section>
 					<section>
 						<h2>Container bauen</h2>
+					</section>
+					<section>
+						<h3>
+							build1/Dockerfile
+						</h3>
+						<pre><code>FROM alpine:latest
+
+MAINTAINER Jakob Runge &lt;sicarius@g4t3.de&gt;
+
+RUN apk update \
+ && apk add git python3-dev \
+ && rm /var/cache/apk/APKINDEX*tar.gz
+
+RUN git clone https://github.com/runjak/nook2016 /srv/nook2016
+
+WORKDIR /srv/nook2016
+EXPOSE 80
+ENTRYPOINT python3 -m http.server 80</code></pre>
+					</section>
+					<section>
+						<asciinema-player src="demos/build1.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
 					</section>
 				</section>
 				<section>

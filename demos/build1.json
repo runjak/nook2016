@@ -1,0 +1,522 @@
+{
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/usr/bin/zsh"
+  },
+  "version": 1,
+  "width": 239,
+  "command": null,
+  "duration": 38.921437,
+  "stdout": [
+    [
+      0.312461,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.012467,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/dockerfiles/build1\u0007"
+    ],
+    [
+      8.6e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/dockerfiles/build1 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      5.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.538088,
+      "l"
+    ],
+    [
+      0.042196,
+      "\bls"
+    ],
+    [
+      0.142719,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000651,
+      "\u001b]0;mushu@stormo: ls\u0007"
+    ],
+    [
+      0.001287,
+      "Dockerfile\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.00872,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/dockerfiles/build1\u0007"
+    ],
+    [
+      7.5e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/dockerfiles/build1 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      5.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.800527,
+      "v"
+    ],
+    [
+      0.065276,
+      "\bvi"
+    ],
+    [
+      0.064407,
+      "m"
+    ],
+    [
+      0.063013,
+      "c"
+    ],
+    [
+      0.108646,
+      "a"
+    ],
+    [
+      0.09249,
+      "t"
+    ],
+    [
+      0.103463,
+      " "
+    ],
+    [
+      0.12342,
+      "D"
+    ],
+    [
+      0.088502,
+      "o"
+    ],
+    [
+      0.095021,
+      "ckerfile\u001b[1m \u001b[0m"
+    ],
+    [
+      0.221366,
+      "\b\u001b[0m \b"
+    ],
+    [
+      3.1e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000456,
+      "\u001b]0;mushu@stormo: vimcat Dockerfile\u0007"
+    ],
+    [
+      0.055067,
+      "\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mFROM \u001b[22;24;25;27;28;39;49malpine:latest\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mMAINTAINER \u001b[22;24;25;27;28;39;49mJakob Runge <sicarius@g4t3.de>\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mRUN \u001b[22;24;25;27;28;39;49mapk update \u001b[22;24;25;27;28;33;49m\\\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m \u001b[22;24;25;27;28;33;49m&&\u001b[22;24;25;27;28;39;49m apk add git python3-dev \u001b[22;24;25;27;28;33;49m\\\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m \u001b[22;24;25;27;28;33;49m&&\u001b[22;24;25;27;28;39;49m \u001b[22;24;25;27;28;33;49mrm\u001b[22;24;25;27;28;39;49m /var/cache/apk/APKINDEX*tar.gz\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mRUN \u001b[22;24;25;27;28;39;49mgit clone https://github.com/runjak/nook2016 /srv/nook2016\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;39;49m\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;2"
+    ],
+    [
+      3.9e-05,
+      "5;27;28;33;49mWORKDIR \u001b[22;24;25;27;28;39;49m/srv/nook2016\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mEXPOSE \u001b[22;24;25;27;28;39;49m80\r\n\u001b[22;24;25;27;28;39;49m\u001b[K\u001b[22;24;25;27;28;33;49mENTRYPOINT \u001b[22;24;25;27;28;39;49mpython3 \u001b[22;24;25;27;28;35;49m-m\u001b[22;24;25;27;28;39;49m http.server \u001b[22;24;25;27;28;31;49m80\u001b[0m\r\n"
+    ],
+    [
+      0.001839,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.009434,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/dockerfiles/build1\u0007"
+    ],
+    [
+      8.7e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/dockerfiles/build1 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      4.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.004688,
+      "d"
+    ],
+    [
+      0.146656,
+      "\bdo"
+    ],
+    [
+      0.072358,
+      "c"
+    ],
+    [
+      0.182689,
+      "k"
+    ],
+    [
+      0.06736,
+      "e"
+    ],
+    [
+      0.056268,
+      "r"
+    ],
+    [
+      0.078409,
+      " "
+    ],
+    [
+      0.186669,
+      "b"
+    ],
+    [
+      0.088477,
+      "u"
+    ],
+    [
+      0.203904,
+      "i"
+    ],
+    [
+      0.190094,
+      "l"
+    ],
+    [
+      0.105264,
+      "d"
+    ],
+    [
+      0.135628,
+      " "
+    ],
+    [
+      0.10738,
+      "-"
+    ],
+    [
+      0.149665,
+      "t"
+    ],
+    [
+      0.232859,
+      " "
+    ],
+    [
+      0.169007,
+      "r"
+    ],
+    [
+      0.060317,
+      "u"
+    ],
+    [
+      0.069309,
+      "n"
+    ],
+    [
+      0.182653,
+      "j"
+    ],
+    [
+      0.156813,
+      "a"
+    ],
+    [
+      0.094244,
+      "k"
+    ],
+    [
+      0.303488,
+      "/"
+    ],
+    [
+      0.280905,
+      "n"
+    ],
+    [
+      0.202308,
+      "o"
+    ],
+    [
+      0.131631,
+      "o"
+    ],
+    [
+      0.163772,
+      "k"
+    ],
+    [
+      0.249826,
+      "2"
+    ],
+    [
+      0.152874,
+      "0"
+    ],
+    [
+      0.440983,
+      "1"
+    ],
+    [
+      0.046213,
+      "6"
+    ],
+    [
+      0.164749,
+      " "
+    ],
+    [
+      0.097552,
+      "."
+    ],
+    [
+      0.267334,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.4e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.0004,
+      "\u001b]0;mushu@stormo: docker build -t runjak/nook2016 .\u0007"
+    ],
+    [
+      0.007037,
+      "Sending build context to Docker daemon 2.048 kB\r\r\r\n"
+    ],
+    [
+      0.052735,
+      "Step 1 : FROM alpine:latest\r\n"
+    ],
+    [
+      0.000196,
+      " ---> 4e38e38c8ce0\r\nStep 2 : MAINTAINER Jakob Runge <sicarius@g4t3.de>\r\n"
+    ],
+    [
+      0.033579,
+      " ---> Running in 75d6a3013401\r\n"
+    ],
+    [
+      0.087799,
+      " ---> 697182ab370c\r\n"
+    ],
+    [
+      0.021079,
+      "Removing intermediate container 75d6a3013401\r\n"
+    ],
+    [
+      3.7e-05,
+      "Step 3 : RUN apk update  && apk add git python3-dev  && rm /var/cache/apk/APKINDEX*tar.gz\r\n"
+    ],
+    [
+      0.025909,
+      " ---> Running in 60ff645985b2\r\n"
+    ],
+    [
+      0.172002,
+      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.4/main/x86_64/APKINDEX.tar.gz\r\n"
+    ],
+    [
+      0.599195,
+      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.4/community/x86_64/APKINDEX.tar.gz\r\n"
+    ],
+    [
+      0.197694,
+      "v3.4.4-9-g07aa589 [http://dl-cdn.alpinelinux.org/alpine/v3.4/main]\r\nv3.4.4-11-g8d207f7 [http://dl-cdn.alpinelinux.org/alpine/v3.4/community]\r\nOK: 5976 distinct packages available\r\n"
+    ],
+    [
+      0.05742,
+      "(1/19) Installing ca-certificates (20160104-r4)\r\n"
+    ],
+    [
+      0.374905,
+      "(2/19) Installing libssh2 (1.7.0-r0)\r\n"
+    ],
+    [
+      0.074225,
+      "(3/19) Installing libcurl (7.50.3-r0)\r\n"
+    ],
+    [
+      0.090693,
+      "(4/19) Installing expat (2.1.1-r1)\r\n"
+    ],
+    [
+      0.1199,
+      "(5/19) Installing pcre (8.38-r1)\r\n"
+    ],
+    [
+      0.141188,
+      "(6/19) Installing git (2.8.3-r0)\r\n"
+    ],
+    [
+      0.234599,
+      "(7/19) Installing pkgconf (0.9.12-r0)\r\n"
+    ],
+    [
+      0.106495,
+      "(8/19) Installing pkgconfig (0.25-r1)\r\n"
+    ],
+    [
+      0.034397,
+      "(9/19) Installing libbz2 (1.0.6-r5)\r\n"
+    ],
+    [
+      0.057326,
+      "(10/19) Installing libffi (3.2.1-r2)\r\n"
+    ],
+    [
+      0.051991,
+      "(11/19) Installing gdbm (1.11-r1)\r\n"
+    ],
+    [
+      0.146826,
+      "(12/19) Installing xz-libs (5.2.2-r1)\r\n"
+    ],
+    [
+      0.183319,
+      "(13/19) Installing ncurses-terminfo-base (6.0-r7)\r\n"
+    ],
+    [
+      0.062904,
+      "(14/19) Installing ncurses-terminfo (6.0-r7)\r\n"
+    ],
+    [
+      0.512572,
+      "(15/19) Installing ncurses-libs (6.0-r7)\r\n"
+    ],
+    [
+      0.166233,
+      "(16/19) Installing readline (6.3.008-r4)\r\n"
+    ],
+    [
+      0.097286,
+      "(17/19) Installing sqlite-libs (3.13.0-r0)\r\n"
+    ],
+    [
+      0.415929,
+      "(18/19) Installing python3 (3.5.2-r0)\r\n"
+    ],
+    [
+      0.864509,
+      "(19/19) Installing python3-dev (3.5.2-r0)\r\n"
+    ],
+    [
+      0.572852,
+      "Executing busybox-1.24.2-r9.trigger\r\n"
+    ],
+    [
+      0.002656,
+      "Executing ca-certificates-20160104-r4.trigger\r\n"
+    ],
+    [
+      0.039488,
+      "OK: 104 MiB in 30 packages\r\n"
+    ],
+    [
+      0.415778,
+      " ---> 20af13193528\r\n"
+    ],
+    [
+      0.101389,
+      "Removing intermediate container 60ff645985b2\r\nStep 4 : RUN git clone https://github.com/runjak/nook2016 /srv/nook2016\r\n"
+    ],
+    [
+      0.272123,
+      " ---> Running in 76345f86731c\r\n"
+    ],
+    [
+      0.193357,
+      "\u001b[91mCloning into '/srv/nook2016'...\r\n\u001b[0m"
+    ],
+    [
+      0.669344,
+      " ---> 0dcf2aa68c07\r\n"
+    ],
+    [
+      0.081244,
+      "Removing intermediate container 76345f86731c\r\n"
+    ],
+    [
+      3.5e-05,
+      "Step 5 : WORKDIR /srv/nook2016\r\n"
+    ],
+    [
+      0.062118,
+      " ---> Running in b9ae8e8cde99\r\n"
+    ],
+    [
+      0.371506,
+      " ---> be0624400ab4\r\n"
+    ],
+    [
+      0.099208,
+      "Removing intermediate container b9ae8e8cde99\r\nStep 6 : EXPOSE 80\r\n"
+    ],
+    [
+      0.034203,
+      " ---> Running in 2a18543f97da\r\n"
+    ],
+    [
+      0.354883,
+      " ---> 79a0ed06c17f\r\n"
+    ],
+    [
+      0.096325,
+      "Removing intermediate container 2a18543f97da\r\nStep 7 : ENTRYPOINT python3 -m http.server 80\r\n"
+    ],
+    [
+      0.030363,
+      " ---> Running in b83f7063e87e\r\n"
+    ],
+    [
+      0.332643,
+      " ---> b550cbd37d89\r\n"
+    ],
+    [
+      0.093162,
+      "Removing intermediate container b83f7063e87e\r\n"
+    ],
+    [
+      0.002731,
+      "Successfully built b550cbd37d89\r\n"
+    ],
+    [
+      0.000855,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.009441,
+      "\u001b]0;mushu@stormo: ~/dev/nook2016/dockerfiles/build1\u0007"
+    ],
+    [
+      7.5e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m~/dev/nook2016/dockerfiles/build1 \u001b[0m\u001b[35m(\u001b[39mgit\u001b[35m)\u001b[33m-\u001b[35m[\u001b[32mmaster\u001b[35m]\u001b[39m % \u001b[K"
+    ],
+    [
+      2.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.788601,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "title": null,
+  "height": 32
+}
