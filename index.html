@@ -34,33 +34,14 @@
 					Überblick:
 					</p>
 					<ol>
+						<li>Was sind container?</li>
+						<li>Wie macht docker container?</li>
+						<li>Wer will container und warum?</li>
+						<li>Container starten</li>
+						<li>Container bauen</li>
+						<li>Container pflegen</li>
 						<li>
-							Was sind container?
-							<!--
-							Was ist das Konzept hier?
-							Gibt es das erst seit gestern?
-							Was ist das Neue?
-						  -->
-						</li>
-						<li>
-							Wer will container haben und warum?
-							<!--
-							Was ändert es, container zu haben?
-							Wie kann das Vorteile bringen?
-							Machen container die Arbeit einfacher oder schwieriger?
-						  -->
-						</li>
-						<li>
-							Container starten, bauen und pflegen
-							<!--
-							Manuell starten, stoppen, etc.
-							Manuell bauen
-							Mit Dockerfile bauen
-							Mit docker-compose starten, bauen, etc…
-						  -->
-						</li>
-						<li>
-							Weiteres geplänkel
+							Weiteres
 							<!--
 							runc, nspawn, docker-swarm, etc?
 					  	-->
@@ -68,25 +49,113 @@
 					</ol>
 				</section>
 				<section>
-					<h2>Was sind container?</h2>
-					* Sowas wie virtualisierung?
+					<section>
+						<h2>Was sind container?</h2>
+						<p>
+							Eine Analogie
+						</p>
+					</section>
+					<section>
+						<h3>Container, Trivia</h3>
+						<ul>
+							<li class="fragment">
+								Sogenannnte Menschen packen da seit >100.000 Jahren Kram rein.
+								<a href="https://en.wikipedia.org/wiki/Container#History">[wikipedia.org/wiki/Container]</a>
+							</li>
+							<li class="fragment">
+								Standardisierte Container haben mal die Schifffahrt revolutioniert.
+							</li>
+							<li class="fragment">
+								Bei Umzügen ist es besser, welche zu haben.
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Gute Container</h3>
+						<ul>
+							<li class="fragment">Isolieren zwischen drinnen und draußen.</li>
+							<li class="fragment">Lassen sich gut und einheitlich transportieren.</li>
+							<li class="fragment">Können praktisch beschriftet und zugeordnet werden.</li>
+						</ul>
+						<p class="fragment">
+							Geht sowas auch für Software?
+						</p>
+					</section>
+					<section>
+						<h3>Gute Verpackungen für Software</h3>
+						<p>
+							Software sollte:
+						</p>
+						<p class="fragment">
+							…möglichst ohne Konflikte installiert werden können.
+						</p>
+						<p class="fragment">
+							…leicht vom Rest des Systems zu isolieren sein.
+						</p>
+						<p class="fragment">
+							…sich gut warten lassen.
+						</p>
+					</section>
+					<section>
+						<h3>Verpackungen für Software</h3>
+						<ul>
+							<li class="fragment">Alles mitbringen:
+								<ul>
+									<li>Statisch compilieren</li>
+									<li>Apps, Java</li>
+									<li>virtualenv o.ä. wie bei Python</li>
+								</ul>
+							</li>
+							<li class="fragment">Auf die Distribution vertrauen</li>
+							<li class="fragment">Virtuelle Maschinen</li>
+							<li class="fragment">Container</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Wie macht docker container?</h2>
+							<!--
+							Was ist das Konzept hier?
+							Gibt es das erst seit gestern?
+							Was ist das Neue?
+						  -->
+					</section>
+					<section>
+						<h2>Virtualisierung?</h2>
+						<img src="img/vmStack.svg" style="border: none; box-shadow: none;"/>
+						<img src="img/dockerStack.svg" style="border: none; box-shadow: none;" class="fragment" />
+					</section>
+					<section>
+						<h2>Ökosystem</h2>
+						<img src="img/ecosystem.svg" style="border: none; box-shadow: none;" />
+					</section>
+					<section>
+						<h2>Images</h2>
+						Stuff about layers
+					</section>
 				</section>
 				<section>
 					<section>
 						<h2>Wer will container haben und warum?</h2>
+						<!--
+						Was ändert es, container zu haben?
+						Wie kann das Vorteile bringen?
+						Machen container die Arbeit einfacher oder schwieriger?
+					  -->
 					</section>
 					<section data-background="img/1280px-Wikimedia_Foundation_Servers-8055_08.png">
 						<h3>
-							Was machen diese Admins mit $servern eigentlich?
+							Serveradministration - was nervt?
 						</h3>
-						<ol>
+						<ul>
 							<li>Server aufsetzen und pflegen</li>
 							<li>Logging</li>
 							<li>Backups</li>
 							<li>Software deployment</li>
 							<li>Kompatibilitätsprobleme überwinden</li>
 							<li>Rechteverwaltung, $foo isolieren</li>
-						</ol>
+						</ul>
 					</section>
 				</section>
 				<section>
@@ -140,12 +209,20 @@ ENTRYPOINT python3 -m http.server 80</code></pre>
 				</section>
 				<section>
 					<section>
-						<h2>Containerf00 pflegen</h2>
+						<h2>Container pflegen</h2>
 					</section>
 				</section>
 				<section>
-					<h2>Weiteres geplänkel</h2>
-					<!-- contained.af -->
+					<section>
+						<h2>Weiteres geplänkel</h2>
+						<!-- contained.af -->
+					</section>
+					<section>
+						<h2>Quellen</h2>
+						<p class="well">
+							<a href="https://www.docker.com/what-docker#/VM">https://www.docker.com/what-docker#/VM</a>
+						</p>
+					</section>
 				</section>
 			</div>
 		</div>
