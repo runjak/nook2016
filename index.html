@@ -26,7 +26,7 @@
 				<section>
 					<img src="img/small_v-trans.png" alt="" />
 					<p>
-						Einstieg ins containern…
+						Einstieg ins Containern…
 					</p>
 				</section>
 				<section>
@@ -34,9 +34,10 @@
 					Überblick:
 					</p>
 					<ol>
-						<li>Was sind container?</li>
-						<li>Wie macht docker container?</li>
-						<li>Wer will container und warum?</li>
+						<li>Was sind Container?</li>
+						<li>Wer will Container und warum?</li>
+						<li>Wie macht Docker Container?</li>
+						<li>Docker CLI Überblick</li>
 						<li>Container starten</li>
 						<li>Container bauen</li>
 						<li>Container pflegen</li>
@@ -50,7 +51,7 @@
 				</section>
 				<section>
 					<section>
-						<h2>Was sind container?</h2>
+						<h2>Was sind Container?</h2>
 						<p>
 							Eine Analogie
 						</p>
@@ -114,7 +115,40 @@
 				</section>
 				<section>
 					<section>
-						<h2>Wie macht docker container?</h2>
+						<h2>Wer will Container haben und warum?</h2>
+						<!--
+						Was ändert es, Container zu haben?
+						Wie kann das Vorteile bringen?
+						Machen Container die Arbeit einfacher oder schwieriger?
+					  -->
+					</section>
+					<section data-background="img/1280px-Wikimedia_Foundation_Servers-8055_08.png">
+						<h3>
+							Serveradministration - was nervt?
+						</h3>
+						<ul>
+							<li>Server aufsetzen und pflegen</li>
+							<li>Kompatibilitätsprobleme überwinden</li>
+							<li>Rechteverwaltung, $foo isolieren</li>
+						</ul>
+						<p>
+						⇒ Da geht doch was mit <del>awk</del> <ins>Docker</ins>!
+						</p>
+					</section>
+					<section data-background="img/IBM402plugboard.Shrigley.wireside.png">
+						<h3>
+							Softwareentwicklung - was nervt?
+						</h3>
+						<ul>
+							<li>Works on my machine (Reproduzierbarkeit)</li>
+							<li>Viele Einzelschritte bis zur Arbeit (node.js)</li>
+							<li>Obskure, irrelevante Bugs</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Wie macht Docker Container?</h2>
 							<!--
 							Was ist das Konzept hier?
 							Gibt es das erst seit gestern?
@@ -134,28 +168,14 @@
 						<h2>Images</h2>
 						<img src="img/layers.svg" />
 					</section>
+					<section>
+						<h2>Images</h2>
+						<asciinema-player src="demos/layers.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
+					</section>
 				</section>
 				<section>
 					<section>
-						<h2>Wer will container haben und warum?</h2>
-						<!--
-						Was ändert es, container zu haben?
-						Wie kann das Vorteile bringen?
-						Machen container die Arbeit einfacher oder schwieriger?
-					  -->
-					</section>
-					<section data-background="img/1280px-Wikimedia_Foundation_Servers-8055_08.png">
-						<h3>
-							Serveradministration - was nervt?
-						</h3>
-						<ul>
-							<li>Server aufsetzen und pflegen</li>
-							<li>Logging</li>
-							<li>Backups</li>
-							<li>Software deployment</li>
-							<li>Kompatibilitätsprobleme überwinden</li>
-							<li>Rechteverwaltung, $foo isolieren</li>
-						</ul>
+						<h2>Docker CLI Überblick</h2>
 					</section>
 				</section>
 				<section>
@@ -219,6 +239,8 @@ ENTRYPOINT python3 -m http.server 80</code></pre>
 					<section>
 						<h2>Weiteres geplänkel</h2>
 						<!-- contained.af -->
+						<!-- https://seanmcgary.com/posts/run-docker-containers-with-systemd-nspawn -->
+						<!-- https://runc.io/ -->
 					</section>
 					<section>
 						<h2>Quellen</h2>

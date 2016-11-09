@@ -1,0 +1,1030 @@
+{
+  "width": 239,
+  "command": null,
+  "title": null,
+  "env": {
+    "SHELL": "/usr/bin/zsh",
+    "TERM": "xterm"
+  },
+  "height": 32,
+  "stdout": [
+    [
+      0.381707,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.01102,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      8.4e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      3.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.37719,
+      "d"
+    ],
+    [
+      0.075285,
+      "\bdo"
+    ],
+    [
+      0.116572,
+      "c"
+    ],
+    [
+      0.075166,
+      "k"
+    ],
+    [
+      0.131687,
+      "e"
+    ],
+    [
+      0.07118,
+      "r"
+    ],
+    [
+      0.106668,
+      " "
+    ],
+    [
+      0.136564,
+      "s"
+    ],
+    [
+      0.182815,
+      "a"
+    ],
+    [
+      0.169736,
+      "v"
+    ],
+    [
+      0.03707,
+      "e"
+    ],
+    [
+      0.101504,
+      " "
+    ],
+    [
+      0.180786,
+      "n"
+    ],
+    [
+      0.05518,
+      "o"
+    ],
+    [
+      0.079382,
+      "d"
+    ],
+    [
+      0.051435,
+      "e"
+    ],
+    [
+      0.076467,
+      ":"
+    ],
+    [
+      0.422811,
+      "l"
+    ],
+    [
+      0.119395,
+      "a"
+    ],
+    [
+      0.148744,
+      "t"
+    ],
+    [
+      0.082343,
+      "e"
+    ],
+    [
+      0.181753,
+      "s"
+    ],
+    [
+      0.076291,
+      "t"
+    ],
+    [
+      0.370718,
+      " "
+    ],
+    [
+      0.481144,
+      "-"
+    ],
+    [
+      0.270109,
+      "o"
+    ],
+    [
+      0.149689,
+      " "
+    ],
+    [
+      0.629716,
+      "n"
+    ],
+    [
+      0.054183,
+      "o"
+    ],
+    [
+      0.12755,
+      "d"
+    ],
+    [
+      0.0653,
+      "e"
+    ],
+    [
+      0.194832,
+      "."
+    ],
+    [
+      0.166742,
+      "t"
+    ],
+    [
+      0.182005,
+      "a"
+    ],
+    [
+      0.066095,
+      "r"
+    ],
+    [
+      0.194944,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000603,
+      "\u001b]0;mushu@stormo: docker save node:latest -o node.tar\u0007"
+    ],
+    [
+      0.562286,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.006979,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      5.7e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      5.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.7e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.482237,
+      "t"
+    ],
+    [
+      0.237901,
+      "\bta"
+    ],
+    [
+      0.076582,
+      "r"
+    ],
+    [
+      0.435837,
+      " "
+    ],
+    [
+      0.08638,
+      "-"
+    ],
+    [
+      0.240105,
+      "x"
+    ],
+    [
+      0.227855,
+      "f"
+    ],
+    [
+      0.194863,
+      " "
+    ],
+    [
+      0.487367,
+      "n"
+    ],
+    [
+      0.089465,
+      "ode.tar\u001b[1m \u001b[0m"
+    ],
+    [
+      0.278913,
+      "\b\u001b[0m \b"
+    ],
+    [
+      2.7e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000419,
+      "\u001b]0;mushu@stormo: tar -xf node.tar\u0007"
+    ],
+    [
+      0.29973,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.007433,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      3.8e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      4.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.5e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.399369,
+      "l"
+    ],
+    [
+      0.036669,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00044,
+      "\u001b]0;mushu@stormo: l\u0007"
+    ],
+    [
+      0.005478,
+      "total 659960\r\n"
+    ],
+    [
+      2.8e-05,
+      "drwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[0m\u001b[01;34m00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u001b[0m\r\n-rw-r--r-- 1 mushu mushu      5006 Nov  3 22:16 04c0ca2a8dadf4f2185c19926532e4fcd45de30870cacf6d579d3a3c9ea647d4.json\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34m1cdfe14430c1e987d5fb23a48e6fae91cc9c83473683834df7107451636fb280\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34m57da277d502a8bc9468993bcd00262baf156f7904d06e6826b8dbe4f822f5e84\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34m86b2a981852b216252b88a7734030495b7fa07936d63f6cf3e572faa4969b442\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34m93e46263ef6708c716f5de89c6889cd16eeab305e2e788b9b53b544ec6690543\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34mc01e511eccbb48dd6921617bfbd7fccd8061c68b2c71fcb49b07945e54746d44\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu       100 Nov  3 22:16 \u001b[01;34mee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u001b[0m\r\n-rw-r--r-- 1 mushu "
+    ],
+    [
+      1.3e-05,
+      "mushu       662 Jan  1  1970 manifest.json\r\n-rw------- 1 mushu mushu 675780608 Nov  9 19:22 \u001b[01;31mnode.tar\u001b[0m\r\n-rw-r--r-- 1 mushu mushu        87 Jan  1  1970 repositories\r\n"
+    ],
+    [
+      0.000147,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.007041,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      0.00053,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.521196,
+      "c"
+    ],
+    [
+      0.167645,
+      "\bca"
+    ],
+    [
+      0.06939,
+      "t"
+    ],
+    [
+      0.051136,
+      " "
+    ],
+    [
+      0.161774,
+      "m"
+    ],
+    [
+      0.103488,
+      "a"
+    ],
+    [
+      0.079797,
+      "nifest.json\u001b[1m \u001b[0m"
+    ],
+    [
+      0.155982,
+      "\b\u001b[0m \b"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000448,
+      "\u001b]0;mushu@stormo: cat manifest.json\u0007"
+    ],
+    [
+      0.000993,
+      "[{\"Config\":\"04c0ca2a8dadf4f2185c19926532e4fcd45de30870cacf6d579d3a3c9ea647d4.json\",\"RepoTags\":[\"node:latest\"],\"Layers\":[\"86b2a981852b216252b88a7734030495b7fa07936d63f6cf3e572faa4969b442/layer.tar\",\"ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e/layer.tar\",\"93e46263ef6708c716f5de89c6889cd16eeab305e2e788b9b53b544ec6690543/layer.tar\",\"1cdfe14430c1e987d5fb23a48e6fae91cc9c83473683834df7107451636fb280/layer.tar\",\"00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b/layer.tar\",\"57da277d502a8bc9468993bcd00262baf156f7904d06e6826b8dbe4f822f5e84/layer.tar\",\"c01e511eccbb48dd6921617bfbd7fccd8061c68b2c71fcb49b07945e54746d44/layer.tar\"]}]\r\n"
+    ],
+    [
+      0.000119,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.006778,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      2.9e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      1.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.027323,
+      "l"
+    ],
+    [
+      0.162649,
+      "\bl "
+    ],
+    [
+      0.50017,
+      "0"
+    ],
+    [
+      0.104674,
+      "0"
+    ],
+    [
+      0.116388,
+      "a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.352201,
+      "\b\u001b[0m \b"
+    ],
+    [
+      2.6e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.0006,
+      "\u001b]0;mushu@stormo: l 00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      0.005081,
+      "total 348\r\n-rw-r--r-- 1 mushu mushu    464 Nov  3 22:16 json\r\n-rw-r--r-- 1 mushu mushu 344576 Nov  3 22:16 \u001b[0m\u001b[01;31mlayer.tar\u001b[0m\r\n-rw-r--r-- 1 mushu mushu      3 Nov  3 22:16 VERSION\r\n"
+    ],
+    [
+      0.000164,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.008071,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      3.8e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      2.2e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.541872,
+      "l"
+    ],
+    [
+      0.319468,
+      "\bl "
+    ],
+    [
+      0.522122,
+      "e"
+    ],
+    [
+      0.123685,
+      "e"
+    ],
+    [
+      0.082829,
+      "5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.159711,
+      "\b\u001b[0m \b\u001b[?1l\u001b>"
+    ],
+    [
+      4.5e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000434,
+      "\u001b]0;mushu@stormo: l ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      0.004693,
+      "total 44128\r\n-rw-r--r-- 1 mushu mushu      464 Nov  3 22:16 json\r\n-rw-r--r-- 1 mushu mushu 45175808 Nov  3 22:16 \u001b[0m\u001b[01;31mlayer.tar\u001b[0m\r\n"
+    ],
+    [
+      2.6e-05,
+      "-rw-r--r-- 1 mushu mushu        3 Nov  3 22:16 VERSION\r\n"
+    ],
+    [
+      9.6e-05,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.007919,
+      "\u001b]0;mushu@stormo: /tmp/layers\u0007"
+    ],
+    [
+      7.2e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m/tmp/layers \u001b[0m% \u001b[K"
+    ],
+    [
+      5.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.356788,
+      "c"
+    ],
+    [
+      0.156705,
+      "\bcd"
+    ],
+    [
+      0.052274,
+      " "
+    ],
+    [
+      0.355434,
+      "0"
+    ],
+    [
+      0.114512,
+      "0"
+    ],
+    [
+      0.108997,
+      "a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.191834,
+      "\b\u001b[0m \b"
+    ],
+    [
+      3e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000368,
+      "\u001b]0;mushu@stormo: cd 00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      0.000366,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.010155,
+      "\u001b]0;mushu@stormo: /tmp/layers/00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      4.4e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..69e7da644fa952e2f023b5e804234642f0a01b \u001b[0m% \u001b[K"
+    ],
+    [
+      3.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.068743,
+      "l"
+    ],
+    [
+      0.121419,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00037,
+      "\u001b]0;mushu@stormo: l\u0007"
+    ],
+    [
+      0.004767,
+      "total 348\r\n-rw-r--r-- 1 mushu mushu    464 Nov  3 22:16 json\r\n"
+    ],
+    [
+      2.8e-05,
+      "-rw-r--r-- 1 mushu mushu 344576 Nov  3 22:16 \u001b[0m\u001b[01;31mlayer.tar\u001b[0m\r\n-rw-r--r-- 1 mushu mushu      3 Nov  3 22:16 VERSION\r\n"
+    ],
+    [
+      0.000158,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.01068,
+      "\u001b]0;mushu@stormo: /tmp/layers/00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      6.6e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..69e7da644fa952e2f023b5e804234642f0a01b \u001b[0m% \u001b[K"
+    ],
+    [
+      5.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.296304,
+      "u"
+    ],
+    [
+      0.062304,
+      "\bun"
+    ],
+    [
+      0.144727,
+      "t"
+    ],
+    [
+      0.449027,
+      "\b \b"
+    ],
+    [
+      0.100365,
+      "\b\bu \b"
+    ],
+    [
+      0.15462,
+      "\b \b"
+    ],
+    [
+      0.454328,
+      "t"
+    ],
+    [
+      0.19555,
+      "\bta"
+    ],
+    [
+      0.047244,
+      "r"
+    ],
+    [
+      0.119567,
+      " "
+    ],
+    [
+      0.106306,
+      "-"
+    ],
+    [
+      0.219079,
+      "x"
+    ],
+    [
+      0.200895,
+      "f"
+    ],
+    [
+      0.115405,
+      " "
+    ],
+    [
+      0.557518,
+      "l"
+    ],
+    [
+      0.132661,
+      "a"
+    ],
+    [
+      0.057852,
+      "yer.tar\u001b[1m \u001b[0m"
+    ],
+    [
+      0.271456,
+      "\b\u001b[0m \b"
+    ],
+    [
+      2.3e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000407,
+      "\u001b]0;mushu@stormo: tar -xf layer.tar"
+    ],
+    [
+      1.4e-05,
+      "\u0007"
+    ],
+    [
+      0.001649,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.010038,
+      "\u001b]0;mushu@stormo: /tmp/layers/00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      3e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..69e7da644fa952e2f023b5e804234642f0a01b \u001b[0m% \u001b[K"
+    ],
+    [
+      4.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.7e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.3746,
+      "l"
+    ],
+    [
+      0.048754,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000374,
+      "\u001b]0;mushu@stormo: l\u0007"
+    ],
+    [
+      0.005476,
+      "total 348\r\n"
+    ],
+    [
+      7.1e-05,
+      "drwxr-xr-x 2 mushu mushu    280 Nov  3 22:15 \u001b[0m\u001b[01;34metc\u001b[0m\r\n-rw-r--r-- 1 mushu mushu    464 Nov  3 22:16 json\r\n-rw-r--r-- 1 mushu mushu 344576 Nov  3 22:16 \u001b[01;31mlayer.tar\u001b[0m\r\ndrwxr-xr-x 3 mushu mushu     60 Nov  3 22:15 \u001b[01;34mvar\u001b[0m\r\n-rw-r--r-- 1 mushu mushu      3 Nov  3 22:16 VERSION\r\n"
+    ],
+    [
+      0.000437,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.008514,
+      "\u001b]0;mushu@stormo: /tmp/layers/00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      6e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..69e7da644fa952e2f023b5e804234642f0a01b \u001b[0m% \u001b[K"
+    ],
+    [
+      2.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.875293,
+      "l"
+    ],
+    [
+      0.077485,
+      "\bl "
+    ],
+    [
+      0.106339,
+      "e"
+    ],
+    [
+      0.115606,
+      "tc\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.227447,
+      "\b\u001b[0m \b"
+    ],
+    [
+      3e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000363,
+      "\u001b]0;mushu@stormo: l etc\u0007"
+    ],
+    [
+      0.004706,
+      "total 48\r\n-rw-r--r-- 1 mushu mushu  600 Nov  3 22:15 group\r\n-rw------- 1 mushu mushu  588 Oct 21 18:37 group-\r\n"
+    ],
+    [
+      3.4e-05,
+      "-rw-r----- 1 mushu mushu  504 Nov  3 22:15 gshadow\r\n-rw------- 1 mushu mushu  495 Oct 21 18:37 gshadow-\r\n-rw-r--r-- 1 mushu mushu 1232 Nov  3 22:15 passwd\r\n-rw------- 1 mushu mushu 1197 Oct 20 22:18 passwd-\r\n-rw-r----- 1 mushu mushu  645 Nov  3 22:15 shadow\r\n-rw------- 1 mushu mushu  626 Oct 20 22:18 shadow-\r\n-rw-r--r-- 1 mushu mushu  137 Nov  3 22:15 subgid\r\n-rw------- 1 mushu mushu  119 Oct 20 22:18 subgid-\r\n-rw-r--r-- 1 mushu mushu  137 Nov  3 22:15 subuid\r\n-rw------- 1 mushu mushu  119 Oct 20 22:18 subuid-\r\n"
+    ],
+    [
+      0.000152,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.008865,
+      "\u001b]0;mushu@stormo: /tmp/layers/00a770458cf9193ca5460e4ced69e7da644fa952e2f023b5e804234642f0a01b\u0007"
+    ],
+    [
+      7.2e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..69e7da644fa952e2f023b5e804234642f0a01b \u001b[0m% \u001b[K"
+    ],
+    [
+      5.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.449142,
+      "c"
+    ],
+    [
+      0.180785,
+      "\bcd"
+    ],
+    [
+      0.056335,
+      " "
+    ],
+    [
+      0.448895,
+      "."
+    ],
+    [
+      0.115483,
+      "."
+    ],
+    [
+      0.133272,
+      "\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.744442,
+      "\b\u001b[0m/e"
+    ],
+    [
+      0.719,
+      "e5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.686614,
+      "\b\u001b[0m \b\u001b[?1l\u001b>"
+    ],
+    [
+      2.3e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000376,
+      "\u001b]0;mushu@stormo: cd ../ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      0.000492,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.011695,
+      "\u001b]0;mushu@stormo: /tmp/layers/ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      4.8e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..bfc1c57aeb7581057e02f6ea5a0de58f50485e \u001b[0m% \u001b[K"
+    ],
+    [
+      5.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.7e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.750083,
+      "!"
+    ],
+    [
+      0.23086,
+      "\b!t"
+    ],
+    [
+      0.167876,
+      "a"
+    ],
+    [
+      0.059252,
+      "r"
+    ],
+    [
+      0.15676,
+      "\b\b\b\btar -xf layer.tar"
+    ],
+    [
+      0.153507,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000399,
+      "\u001b]0;mushu@stormo: tar -xf layer.tar\u0007"
+    ],
+    [
+      0.033469,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.008333,
+      "\u001b]0;mushu@stormo: /tmp/layers/ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      3e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..bfc1c57aeb7581057e02f6ea5a0de58f50485e \u001b[0m% \u001b[K"
+    ],
+    [
+      1.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.535143,
+      "l"
+    ],
+    [
+      0.068965,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00037,
+      "\u001b]0;mushu@stormo: l\u0007"
+    ],
+    [
+      0.004783,
+      "total 44128\r\ndrwxr-xr-x 6 mushu mushu      180 Oct 21 18:36 \u001b[0m\u001b[01;34metc\u001b[0m\r\n-rw-r--r-- 1 mushu mushu      464 Nov  3 22:16 json\r\n-rw-r--r-- 1 mushu mushu 45175808 Nov  3 22:16 \u001b[01;31mlayer.tar\u001b[0m\r\ndrwxr-xr-x 3 mushu mushu       60 Oct 21 18:36 \u001b[01;34mlib\u001b[0m\r\n"
+    ],
+    [
+      2.7e-05,
+      "drwxr-xr-x 2 mushu mushu       40 Oct 21 18:36 \u001b[01;34mtmp\u001b[0m\r\ndrwxr-xr-x 7 mushu mushu      140 Oct 21 18:36 \u001b[01;34musr\u001b[0m\r\ndrwxr-xr-x 5 mushu mushu      100 Oct 21 18:36 \u001b[01;34mvar\u001b[0m\r\n-rw-r--r-- 1 mushu mushu        3 Nov  3 22:16 VERSION\r\n"
+    ],
+    [
+      0.000138,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.008777,
+      "\u001b]0;mushu@stormo: /tmp/layers/ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      3.3e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..bfc1c57aeb7581057e02f6ea5a0de58f50485e \u001b[0m% \u001b[K"
+    ],
+    [
+      1.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.762568,
+      "l"
+    ],
+    [
+      0.145569,
+      "\ble"
+    ],
+    [
+      0.05331,
+      " "
+    ],
+    [
+      0.498091,
+      "\b"
+    ],
+    [
+      0.098417,
+      "\b\bl \b"
+    ],
+    [
+      0.055306,
+      "\bl "
+    ],
+    [
+      0.069118,
+      "e"
+    ],
+    [
+      0.114179,
+      "tc\u001b[1m/\u001b[0m"
+    ],
+    [
+      0.150575,
+      "\b\u001b[0m \b"
+    ],
+    [
+      3e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000502,
+      "\u001b]0;mushu@stormo: l etc\u0007"
+    ],
+    [
+      0.006361,
+      "total 28\r\ndrwxr-xr-x 3 mushu mushu   60 Oct 21 18:36 \u001b[0m\u001b[01;34mca-certificates\u001b[0m\r\n-rw-r--r-- 1 mushu mushu 7820 Oct 21 18:36 ca-certificates.conf\r\n"
+    ],
+    [
+      3.7e-05,
+      "drwxr-xr-x 3 mushu mushu   60 Oct 21 18:36 \u001b[01;34mgss\u001b[0m\r\ndrwxr-xr-x 2 mushu mushu   60 Oct 21 18:36 \u001b[01;34mldap\u001b[0m\r\n-rw-r--r-- 1 mushu mushu 9732 Oct 21 18:36 ld.so.cache\r\ndrwxr-xr-x 4 mushu mushu  100 Oct 21 18:36 \u001b[01;34mssl\u001b[0m\r\n-rw-r--r-- 1 mushu mushu 4812 Jul  5 17:32 wgetrc\r\n"
+    ],
+    [
+      0.000193,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                              \r \r"
+    ],
+    [
+      0.01036,
+      "\u001b]0;mushu@stormo: /tmp/layers/ee5aa77e788ef9e6ee43479e0ebfc1c57aeb7581057e02f6ea5a0de58f50485e\u0007"
+    ],
+    [
+      7.7e-05,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[1m\u001b[34mmushu\u001b[39m\u001b[0m@stormo \u001b[1m..bfc1c57aeb7581057e02f6ea5a0de58f50485e \u001b[0m% \u001b[K"
+    ],
+    [
+      5.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.825471,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "duration": 37.435851,
+  "version": 1
+}
