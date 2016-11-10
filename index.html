@@ -178,6 +178,7 @@
 							<li>Ein Prozess pro Image (eine Aufgabe)</li>
 							<li>Kleines, populäres base Image</li>
 							<li>Extras vermeiden</li>
+							<li>Builds automatisieren</li>
 						</ul>
 					</section>
 				</section>
@@ -186,22 +187,149 @@
 						<h2>Docker CLI Überblick</h2>
 					</section>
 					<section>
-						docker run, stop, kill, rm
+						<pre><code data-trim class="bash">
+							docker run $image
+						</code></pre>
+						<table>
+							<thead>
+								<tr>
+									<th>
+										Arg.
+									</th>
+									<th>
+										Bedeutung
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<pre><code>-it</code></pre>
+									</td>
+									<td>
+										Interaktiv, tty
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<pre style="min-width: 400px;"><code data-trim class="bash">
+											-v $hostPath:$containerPath
+										</code></pre>
+									</td>
+									<td>
+										Handling von Volumes
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<pre style="min-width: 400px;"><code data-trim class="bash">
+											-p $ip:$hostPort:$containerPort
+										</code></pre>
+									</td>
+									<td>
+										Veröffentlichen von Ports
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<pre style="min-width: 400px;"><code data-trim class="bash">
+											-e "foo=bar"
+										</code></pre>
+									</td>
+									<td>
+										Umgebungsvariablen
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<pre><code data-trim class="bash">
+							docker {stop,kill,rm} $container
+						</code></pre>
 					</section>
 					<section>
-						docker exec, attach, logs
+						<pre><code data-trim class="bash">
+							docker exec $container $command
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker attach $container
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker logs $container
+						</code></pre>
 					</section>
 					<section>
-						docker rm, rmi
+						<pre><code data-trim class="bash">
+							docker build .
+						</code></pre>
+						<table>
+							<thead>
+								<tr>
+									<th>
+										Arg.
+									</th>
+									<th>
+										Bedeutung
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<pre style="min-width: 200px;"><code data-trim class="bash">
+											-t $name:$tag
+										</code></pre>
+									</td>
+									<td>
+										Image Nomenklatur
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<pre style="min-width: 200px;"><code data-trim class="bash">
+											-f $dockerfile
+										</code></pre>
+									</td>
+									<td>
+										Ort, Dockerfile
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<pre style="min-width: 200px;"><code data-trim class="bash">
+											--no-cache
+										</code></pre>
+									</td>
+									<td>
+										Ignore cache
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<pre><code data-trim class="bash">
+							docker rmi $image
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker diff $container
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker commit $container $name:$tag
+						</code></pre>
 					</section>
 					<section>
-						docker build, rmi, diff, commit
+						<pre><code data-trim class="bash">
+							docker pull $name:$tag
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker push $name:$tag
+						</code></pre>
+						<pre><code data-trim class="bash">
+							docker {login,logout} …
+						</code></pre>
 					</section>
 					<section>
-						docker pull, push, login, logout
-					</section>
-					<section>
-						docker volume
+						<pre><code data-trim class="bash">
+							docker volume {create,inspect,ls,rm} …
+						</code></pre>
 					</section>
 				</section>
 				<section>
@@ -210,20 +338,26 @@
 						* Hier kommt dieser Docker ins Spiel.
 					</section>
 					<section>
-						<pre><code class="bash">docker run hello-world</code></pre>
+						<pre><code class="bash" data-trim>
+							docker run hello-world
+						</code></pre>
 						<asciinema-player src="demos/helloworld.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
 					</section>
 					<section>
-						<pre><code class="bash">docker run -it ubuntu:latest bash</code></pre>
+						<pre><code class="bash" data-trim>
+							docker run -it ubuntu:latest bash
+						</code></pre>
 						<asciinema-player src="demos/runUbuntu.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
 					</section>
 					<section>
 						<h3>Serving this presentation</h3>
-						<pre><code class="bash">#!/bin/sh
+						<pre><code class="bash" data-trim>
+#!/bin/sh
 docker run \
   --volume `pwd`:/usr/share/nginx/html:ro \
   -p 80:80 \
-  -it nginx:alpine</code></pre>
+  -it nginx:alpine
+						</code></pre>
 						<asciinema-player src="demos/serveNginx.json" theme="solarized-light" rows="24" cols="239"></asciinema-player>
 					</section>
 				</section>
@@ -235,7 +369,8 @@ docker run \
 						<h3>
 							build1/Dockerfile
 						</h3>
-						<pre><code>FROM alpine:latest
+						<pre><code data-trim>
+FROM alpine:latest
 
 MAINTAINER Jakob Runge &lt;sicarius@g4t3.de&gt;
 
@@ -247,7 +382,8 @@ RUN git clone https://github.com/runjak/nook2016 /srv/nook2016
 
 WORKDIR /srv/nook2016
 EXPOSE 80
-ENTRYPOINT python3 -m http.server 80</code></pre>
+ENTRYPOINT python3 -m http.server 80
+						</code></pre>
 					</section>
 					<section>
 						<asciinema-player src="demos/build1.json" theme="solarized-light" rows="32" cols="239"></asciinema-player>
